@@ -1,5 +1,5 @@
 import React from 'react';
-import { AnswerBox, AnswerText, Content, Option, QuestionBox, QuestionImage, QuestionText, Result, ResultText, Wrapper } from './ResultsQuestionStyle';
+import { AnswerBox, AnswerText, AnswerInput, Content, Option, QuestionBox, QuestionImage, QuestionText, Result, ResultText, Wrapper } from './ResultsQuestionStyle';
 
 const Question = (props) => {
     return (
@@ -15,24 +15,24 @@ const Question = (props) => {
                     <AnswerBox>
                         {props.answer === 'A' ?
                             <Option>
-                                <input type='radio' name={props.idQuestion} value='A' checked />
+                                <AnswerInput type='radio' name={props.idQuestion} value='A' checked />
                                 <AnswerText></AnswerText>
                                 {props.A}
                             </Option> :
                             <Option>
-                                <input type='radio' name={props.idQuestion} value='A' />
+                                <AnswerInput type='radio' name={props.idQuestion} value='A' />
                                 <AnswerText></AnswerText>
                                 {props.A}
                             </Option>
                         }
                         {props.answer === 'B' ?
                             <Option>
-                                <input type='radio' name={props.idQuestion} value='B' checked />
+                                <AnswerInput type='radio' name={props.idQuestion} value='B' checked />
                                 <AnswerText></AnswerText>
                                 {props.B}
                             </Option> :
                             <Option>
-                                <input type='radio' name={props.idQuestion} value='B' />
+                                <AnswerInput type='radio' name={props.idQuestion} value='B' />
                                 <AnswerText></AnswerText>
                                 {props.B}
                             </Option>
@@ -40,8 +40,8 @@ const Question = (props) => {
                         {props.C ?
                             <Option >
                                 {props.answer === 'C' ?
-                                    <input type='radio' name={props.idQuestion} value='C' checked /> :
-                                    <input type='radio' name={props.idQuestion} value='C' />
+                                    <AnswerInput type='radio' name={props.idQuestion} value='C' checked /> :
+                                    <AnswerInput type='radio' name={props.idQuestion} value='C' />
                                 }
                                 <AnswerText></AnswerText>
                                 {props.C}
@@ -50,8 +50,8 @@ const Question = (props) => {
                         {props.D ?
                             <Option >
                                 {props.answer === 'D' ?
-                                    <input type='radio' name={props.idQuestion} value='D' checked /> :
-                                    <input type='radio' name={props.idQuestion} value='D' />
+                                    <AnswerInput type='radio' name={props.idQuestion} value='D' checked /> :
+                                    <AnswerInput type='radio' name={props.idQuestion} value='D' />
                                 }
                                 <AnswerText></AnswerText>
                                 {props.D}
@@ -65,24 +65,24 @@ const Question = (props) => {
                     <AnswerBox>
                         {props.select === 'A' ?
                             <Option>
-                                <input type='radio' name={props.idQuestion} value='A' checked />
+                                <AnswerInput type='radio' name={props.idQuestion} value='A' checked />
                                 <AnswerText></AnswerText>
                                 {props.A}
                             </Option> :
                             <Option>
-                                <input type='radio' name={props.idQuestion} value='A' />
+                                <AnswerInput type='radio' name={props.idQuestion} value='A' />
                                 <AnswerText></AnswerText>
                                 {props.A}
                             </Option>
                         }
                         {props.select === 'B' ?
                             <Option>
-                                <input type='radio' name={props.idQuestion} value='B' checked />
+                                <AnswerInput type='radio' name={props.idQuestion} value='B' checked />
                                 <AnswerText></AnswerText>
                                 {props.B}
                             </Option> :
                             <Option>
-                                <input type='radio' name={props.idQuestion} value='B' />
+                                <AnswerInput type='radio' name={props.idQuestion} value='B' />
                                 <AnswerText></AnswerText>
                                 {props.B}
                             </Option>
@@ -90,8 +90,8 @@ const Question = (props) => {
                         {props.C ?
                             <Option >
                                 {props.select === 'C' ?
-                                    <input type='radio' name={props.idQuestion} value='C' checked /> :
-                                    <input type='radio' name={props.idQuestion} value='C' />
+                                    <AnswerInput type='radio' name={props.idQuestion} value='C' checked /> :
+                                    <AnswerInput type='radio' name={props.idQuestion} value='C' />
                                 }
                                 <AnswerText></AnswerText>
                                 {props.C}
@@ -100,8 +100,8 @@ const Question = (props) => {
                         {props.D ?
                             <Option >
                                 {props.select === 'D' ?
-                                    <input type='radio' name={props.idQuestion} value='D' checked /> :
-                                    <input type='radio' name={props.idQuestion} value='D' />
+                                    <AnswerInput type='radio' name={props.idQuestion} value='D' checked /> :
+                                    <AnswerInput type='radio' name={props.idQuestion} value='D' />
                                 }
                                 <AnswerText></AnswerText>
                                 {props.D}

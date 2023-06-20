@@ -8,37 +8,37 @@ export const Wrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
     background-image: url(https://www.leadquizzes.com/wp-content/uploads/2019/02/New-blog-graphic.jpg);
-    font-size: calc(9px + 2vmin);
-    
 }`
 
 export const Description = styled.div`{
     width: 60vw;
     height: 80vh;
-    margin-bottom: 20px;
+    margin-bottom: 32px;
     background-color: cyan;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
 }`
 export const Title = styled.div`{
     font-weight: bold;
-    margin-button: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-size: calc( 2vmax + 2px);
+    padding: 10px 0 13px;
+    font-size: 34px;
     color: red;
     background-color: beige;
 }`
 export const Content = styled.div`{
-    margin: 20px;
-    padding-left: 30px;
+    margin: 20px 40px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 24px;
 }`
 
 export const Startbutton = styled.button`
@@ -50,8 +50,11 @@ export const Startbutton = styled.button`
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-     font-size: large;
-     color: blue;
-     font-weight: bold;
-   
+    font-size: 22px;
+    color: #5353c0;
+    font-weight: bold;
+    &:hover {
+        background-color: rgb(245,245,220,0.9);
+        cursor: pointer;
+      }
 }`

@@ -21,7 +21,7 @@ const ListQuestion = (props) => {
                         return (
                             <Question
 
-                                Select={select}
+                                select={select}
                                 num={index + 1}
                                 idQuestion={index + 1}
                                 question={item.question}

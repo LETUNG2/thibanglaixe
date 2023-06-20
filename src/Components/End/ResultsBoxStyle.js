@@ -1,12 +1,12 @@
 import styled from "styled-components";
 export const Wrapper = styled.div`{
-    background-color: yellow;
+    background-color: #e7f3f5;
     display: flex;
-    font-size:30px;
-    width: 90vw;
-    height: 5em; 
+    font-size: 30px;
+    width: 30vw;
+    height: 104px; 
     margin: 20px;
-    font-size: 20px;
+    font-size: 22px;
     border: 1px solid grey;
     padding: 10px;
     flex-direction: column;
@@ -18,7 +18,7 @@ export const ContentBox = styled.div`{
     align-items: center;
 }`
 export const Content = styled.div`{
-    front-size: 10px;
+    font-size: 24px;
     padding: 10px;
     font-weight: bold;
     color: red;

@@ -21,7 +21,7 @@ export const QuestionBox = styled.div`{
 
 export const Content = styled.div`{
     padding: 10px;
-    front-size: 20px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
 }`
@@ -30,26 +30,31 @@ export const QuestionText = styled.div`{
 }`
 
 export const AnswerBox = styled.div`{
-    margin: 10px;
+    margin: -16px 16px 6px;
     display: flex;
     flex-direction: column;
 }`
 
 export const Option = styled.div`{
-    display: -webkit-box;
+    display: flex;
     padding: 5px;
+    align-items: flex-start;
 }`
 
 export const AnswerInput = styled.input`{
-    
+    display: flex;
+    margin: 8px 8px;
+    height: 16px;
+    width: 24px;
+    cursor: pointer;
 }`
 export const AnswerText = styled.div`{
-    
+    display: flex;
+    align-items: center;
 }`
 
 export const QuestionImage = styled.img`{
-    width: 20em;
-    margin-top: 1em;
-    
+    width: 24vw;
+    margin: 10px 16px;
 }`
 

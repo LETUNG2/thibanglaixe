@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { BodyBox, EndButton, Footer, Header, Time, Title, Wrapper } from './ExamStyle'
 import ListQuestion from '../../Components/Exam/listQuestion';
+import { FaRegClock } from "react-icons/fa";
 
 
 const Exam = () => {
@@ -65,7 +66,7 @@ const Exam = () => {
 
       <Header>
         <Title><strong>Bài Thi Lý Thuyết Bằng Lái Xe A1</strong></Title>
-        <Time>Thời gian: {formatTime(countdown)}</Time>
+        <Time><FaRegClock /> {formatTime(countdown)}</Time>
       </Header>
       <BodyBox>
         <ListQuestion
