@@ -3,11 +3,12 @@ import styled from "styled-components";
 export const Wrapper = styled.div`{
     background-color: white;
     display: flex;
-    font-size:30px;
     width: 80vw; 
     margin: 10px;
     font-size: 20px;
     flex-direction: column;
+    align-items: center;
+    user-select: none;
 }`
 
 export const QuestionBox = styled.div`{
@@ -20,24 +21,25 @@ export const QuestionBox = styled.div`{
 }`
 
 export const Content = styled.div`{
-    padding: 10px;
+    padding: 10px 10px 0;
     font-size: 20px;
     display: flex;
-    flex-direction: column;
+    font-weight: 500;
 }`
 
 export const QuestionText = styled.div`{
+    padding-left: 4px;
+    flex:1;
 }`
 
 export const AnswerBox = styled.div`{
-    margin: -16px 16px 6px;
+    margin: 0 21px 12px;
     display: flex;
     flex-direction: column;
 }`
 
 export const Option = styled.div`{
     display: flex;
-    padding: 5px;
     align-items: flex-start;
 }`
 
@@ -49,12 +51,11 @@ export const AnswerInput = styled.input`{
     cursor: pointer;
 }`
 export const AnswerText = styled.div`{
-    display: flex;
-    align-items: center;
+
 }`
 
 export const QuestionImage = styled.img`{
     width: 24vw;
-    margin: 10px 16px;
+    margin: 8px 0 5px 36px;
 }`
 

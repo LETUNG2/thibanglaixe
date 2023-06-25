@@ -7,11 +7,11 @@ const ResultsBox = (props) => {
         <Wrapper>
             < ContentBox>
                 <Content>Số câu đúng là:</Content>
-                <div style={{ color: 'blue', fontWeight: 'bold' }}>{props.Score}</div>
+                <div style={{ color: 'blue', fontWeight: '600' }}>{props.Score}</div>
             </ ContentBox>
             < ContentBox>
                 <Content>Kết quả của bạn là:</Content>
-                <div style={{ color: 'blue', fontWeight: 'bold' }}>{props.result}</div>
+                <div style={{ color: 'blue', fontWeight: '600' }}>{props.result}</div>
             </ ContentBox>
         </Wrapper>
     )

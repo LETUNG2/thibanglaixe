@@ -7,7 +7,7 @@ const Start = () => {
         <Title>Thi Lý Thuyết Bằng Lái Xe Máy</Title>
         <Content>
           <p>
-            <strong style={{ color: "blue", fontSize: "28px" }}>Cấu trúc đề thi và yêu cầu:</strong>
+            <strong style={{ color: "#034c5f", fontSize: "28px" }}>Cấu trúc đề thi và yêu cầu:</strong>
           </p>
           <ul style={{ marginTop: '-10px' }}>
             <li>Thời gian làm bài: 19 phút</li>

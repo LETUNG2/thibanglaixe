@@ -9,14 +9,16 @@ export const Wrapper = styled.div`
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    background-image: url(https://www.leadquizzes.com/wp-content/uploads/2019/02/New-blog-graphic.jpg);
+    background-image: url('https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
 }`
 
 export const Description = styled.div`{
     width: 60vw;
     height: 80vh;
     margin-bottom: 32px;
-    background-color: cyan;
+    background-color: #b6ddda;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -30,8 +32,8 @@ export const Title = styled.div`{
     align-items: center;
     padding: 10px 0 13px;
     font-size: 34px;
-    color: red;
-    background-color: beige;
+    color: #ee6457;
+    background-color: #fae0c7;
 }`
 export const Content = styled.div`{
     margin: 20px 40px 0;
@@ -51,8 +53,8 @@ export const Startbutton = styled.button`
     align-items: center;
     border-radius: 5px;
     font-size: 22px;
-    color: #5353c0;
-    font-weight: bold;
+    color: #034c5f;
+    font-weight: 600;
     &:hover {
         background-color: rgb(245,245,220,0.9);
         cursor: pointer;

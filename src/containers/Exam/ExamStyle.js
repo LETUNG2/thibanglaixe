@@ -21,14 +21,14 @@ export const Header = styled.div`{
 export const Title = styled.div`{
     width: 100vw;
     height: 10vh;
-    background-color: beige;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     box-sizing: border-box;
     font-size: 34px;
-    color: red;
+    color: #ee6457;
+    background-color: #fae0c7;
 }`
 export const Time = styled.div`{
         display: flex;
@@ -74,8 +74,8 @@ export const EndButton = styled.button`{
     align-items: center;
     border-radius: 5px;
     font-size: 22px;
-    color: #5353c0;
-    font-weight: bold;
+    color: #034c5f;
+    font-weight: 600;
     &:hover {
         background-color: rgb(245,245,220,0.8);
         cursor: pointer;

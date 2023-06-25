@@ -23,7 +23,6 @@ const ListQuestion = (props) => {
                                 B={item.B}
                                 C={item.C}
                                 D={item.D}
-
                             />
                         )
                     }

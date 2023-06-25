@@ -7,10 +7,9 @@ const Question = (props) => {
             <QuestionBox >
                 <Content>
                     Câu {props.num}:
-                    <QuestionText value={props.num}></QuestionText>
-                    {props.question}
-                    <QuestionImage src={props.image}></QuestionImage>
+                    <QuestionText value={props.num}> {props.question} </QuestionText>
                 </Content>
+                <QuestionImage src={props.image}></QuestionImage>
                 <AnswerBox>
                     <Option>
                         <AnswerInput type='radio' name={props.num} value='A' onChange={(e, idQuestion) => props.selectOnChange(e, props.idQuestion)} />
